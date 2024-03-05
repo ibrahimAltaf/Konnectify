@@ -572,13 +572,53 @@ footer {
     text-transform: capitalize;
 }
 
+
+.card-visa {
+    width: 140px;
+}
+
+.cop-02 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+
+.privasy-policy ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+
 .navbar {
     display: none;
 }
 
+.privacy-links {
+    color: white;
+}
+
+/* Slider Css */
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .swiper-slide img {
-    width: 400px;
-    height: 400px;
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 @media only screen and (max-width: 600px) {
@@ -776,5 +816,43 @@ footer {
         font-weight: 400;
 
         text-transform: capitalize;
+    }
+
+
+
+
+
+
+    .packages-main {
+        width: 100%;
+        height: 100%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .Packages-card {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 15px;
+        padding: 1rem;
+    }
+
+    .cop-02 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .privasy-policy ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
     }
 }
