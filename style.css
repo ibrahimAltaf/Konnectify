@@ -1,0 +1,771 @@
+@import url('https://fonts.googleapis.com/css2?family=Farro:wght@300;400;500;700&family=Onest:wght@100..900&display=swap');
+
+/* Default  */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+li {
+    list-style: none;
+}
+
+/* End */
+
+/* Main Section Start */
+.main-home {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(265deg, #F1EBDE 7.28%, rgba(226, 86, 44, 0.78) 51.84%, #F1EBDE 95.13%), url(<path-to-image>), lightgray 50% / cover no-repeat;
+
+    padding: 1rem;
+
+}
+
+nav {
+    width: 82%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-brand h3 {
+    color: #000;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.nav-routes ul {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.Nav-links {
+    color: #000;
+    font-family: "Farro", sans-serif;
+    font-size: 16px;
+}
+
+.get-quote-btn button {
+    width: 140px;
+    height: 40px;
+    background-color: #000;
+    color: white;
+    font-family: "Farro", sans-serif;
+    font-size: 15px;
+    outline: none;
+    border: none;
+    border-radius: 12px;
+
+}
+
+
+.main-hero-head {
+    color: #000;
+    font-family: "Farro", sans-serif;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    text-transform: capitalize;
+}
+
+.main-para {
+    color: #000;
+    font-family: "Farro", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+
+}
+
+
+
+/* Slider */
+
+.services-head {
+    color: #000;
+    font-family: "Farro", sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    text-transform: capitalize;
+
+}
+
+.services-para {
+    color: #000;
+    text-align: center;
+    font-family: "Farro", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+
+}
+
+.services-01 {
+    color: #000;
+    font-family: "Farro", sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+}
+
+.services-para-01 {
+    color: #000;
+    font-family: "Farro", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+
+}
+
+.ser-2 {
+    color: #000;
+    font-family: "Farro", sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+}
+
+.ser-card-active {
+    border-radius: 15px;
+    border: 2px solid #E2562C;
+    background: linear-gradient(126deg, #F1EBDE 0%, #FFF 100%);
+    padding: 2rem;
+}
+
+.ser-card {
+    border-radius: 15px;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    padding: 1rem;
+}
+
+.Or-aquote {
+    width: 140px;
+    height: 40px;
+    border-radius: 12px;
+    background: #E2562C;
+    color: #FFF;
+    font-family: "Farro", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    outline: none;
+    border: none;
+
+
+}
+
+.quotes--btn {
+    width: 140px;
+    height: 40px;
+    margin: auto;
+
+
+}
+
+
+
+/* Packages */
+.packages {
+    width: 100%;
+    height: 100%;
+    padding: 5rem;
+    background: #F1EBDE;
+}
+
+.packages-head {
+    text-align: center;
+    color: #000;
+
+    font-family: "Farro", sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    text-transform: capitalize;
+
+}
+
+.packages-btn-row {
+    width: 50%;
+    height: 60px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    border-radius: 15px;
+    background: rgba(0, 0, 0, 0.05);
+}
+
+.packages-btn-row button {
+    width: auto;
+    height: 40px;
+    border-radius: 12px;
+    background: #E2562C;
+    color: #FFF;
+    font-family: "Farro", sans-serif;
+    font-size: 16px;
+
+    font-weight: 400;
+    padding: 10px;
+    outline: none;
+    border: none;
+
+}
+
+.packges-card {
+    border-radius: 15px;
+    border: 2px solid #E2562C;
+    background: #FFF;
+}
+
+.packeg-head {
+    color: #000;
+    font-family: "Farro", sans-serif;
+    font-size: 20px;
+
+    font-weight: 500;
+
+
+}
+
+.packges-higlight {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    align-items: center;
+
+}
+
+.heogh-para {
+    color: #000;
+    font-family: "Farro", sans-serif;
+    font-size: 16px;
+
+    font-weight: 300;
+
+}
+
+.list-cek {
+    width: 30px;
+    height: 30px;
+}
+
+.higlist {
+    color: #000;
+    font-family: "Farro", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.44px;
+}
+
+.call {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-radius: 12px;
+    background: #E2562C;
+    align-items: center;
+    width: 190px;
+    height: 40px;
+    outline: none;
+    border: none;
+    color: #FFF;
+    font-family: "Farro", sans-serif;
+    font-size: 16px;
+
+    font-weight: 500;
+
+
+}
+
+.Packages-card {
+    width: 400px;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+    padding: 1rem;
+}
+
+.about-us {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.AboutUsHEad {
+
+    color: #000;
+
+    font-family: "Farro", sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    text-transform: capitalize;
+}
+
+.About-para {
+    color: #000;
+    font-family: "Farro", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+
+}
+
+.ourMessionBtn button {
+    width: 140px;
+    height: 40px;
+    background-color: transparent;
+    color: #E2562C;
+    border-radius: 12px;
+    border: 1px solid #E2562C;
+    font-family: "Farro", sans-serif;
+    font-size: 16px;
+
+}
+
+.contact-main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+
+}
+
+.contact-content {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.contact-form {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    border-radius: 20px;
+    background: #F1EBDE;
+    padding: 2rem;
+
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contact-head {
+    color: #000;
+
+    font-family: "Farro", sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    text-transform: capitalize;
+}
+
+.contact-links {
+    color: #000;
+    font-family: "Farro", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+
+.contact-links span {
+    color: #E2562C;
+    margin-right: 5px;
+}
+
+.contact-links:hover {
+    color: #E2562C;
+    font-family: "Farro", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+
+form h3 {
+    color: #000;
+
+    font-family: "Farro", sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    text-transform: capitalize;
+}
+
+form input {
+    width: 100%;
+    height: 40px;
+    outline: none;
+    border-radius: 10px;
+    padding: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.50);
+    background: rgba(255, 255, 255, 0.50);
+}
+
+form textarea {
+    width: 100%;
+
+    outline: none;
+    border-radius: 10px;
+    padding: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.50);
+    background: rgba(255, 255, 255, 0.50);
+}
+
+form button {
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+    background: #E2562C;
+    color: #FFF;
+
+    font-family: "Farro", sans-serif;
+    font-size: 16px;
+
+    font-weight: 400;
+
+    outline: none;
+    border: none;
+}
+
+footer {
+    width: 100%;
+    height: 100%;
+    background: #E2562C;
+    color: #FFF;
+}
+
+.footer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2rem;
+
+}
+
+.footer-01 {
+    width: 40%;
+}
+
+.footer-02 {
+    width: 30%;
+}
+
+.copy-right {
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footer-link-head {
+    color: #FFF;
+    font-family: "Farro", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -0.48px;
+    text-transform: capitalize;
+}
+
+.Footer-head {
+    color: #FFF;
+    font-family: "Farro", sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.footer-para {
+    color: #FFF;
+    font-family: "Farro", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+
+.footer-links {
+    color: #FFF;
+    font-family: "Farro", sans-serif;
+    font-size: 16px;
+
+    font-weight: 400;
+
+    text-transform: capitalize;
+}
+
+.navbar {
+    display: none;
+}
+
+.swiper-slide img {
+    width: 400px;
+    height: 400px;
+}
+
+@media only screen and (max-width: 1024px) {
+    nav {
+        display: none;
+    }
+
+    .navbar {
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 460px) {
+    .packages {
+        width: 100%;
+        height: 100%;
+        padding: 20px;
+        background: #F1EBDE;
+    }
+
+    .packages-btn-row {
+        width: 100%;
+        height: 100%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        border-radius: 15px;
+        padding: 10px;
+        background: rgba(0, 0, 0, 0.05);
+    }
+
+    .about-us {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .About-para {
+        color: #000;
+        font-family: "Farro", sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 300;
+        text-align: center;
+        line-height: normal;
+
+    }
+
+    .AboutUsHEad {
+
+        color: #000;
+
+        font-family: "Farro", sans-serif;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-align: center;
+        text-transform: capitalize;
+    }
+
+    .contact-main {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+
+    }
+
+    .contact-content {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+
+        justify-content: center;
+        align-items: center;
+    }
+
+
+
+    .contact-form {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+
+        justify-content: center;
+        border-radius: 20px;
+        background: #F1EBDE;
+        padding: 20px;
+
+    }
+
+    .contact-content ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    form h3 {
+        color: #000;
+
+        font-family: "Farro", sans-serif;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-align: center;
+        text-transform: capitalize;
+    }
+
+
+
+    footer {
+        width: 100%;
+        height: 100%;
+        background: #E2562C;
+        color: #FFF;
+    }
+
+    .footer {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 20px;
+
+    }
+
+    .footer-01 {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .footer-02 {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .copy-right {
+        width: 80%;
+        height: 100%;
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .footer-link-head {
+        color: #FFF;
+        font-family: "Farro", sans-serif;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        letter-spacing: -0.48px;
+        text-transform: capitalize;
+    }
+
+    .Footer-head {
+        color: #FFF;
+        font-family: "Farro", sans-serif;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+
+    .footer-para {
+        color: #FFF;
+        font-family: "Farro", sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+
+    }
+
+    .footer-links {
+        color: #FFF;
+        font-family: "Farro", sans-serif;
+        font-size: 16px;
+
+        font-weight: 400;
+
+        text-transform: capitalize;
+    }
+}
