@@ -621,6 +621,32 @@ footer {
     object-fit: cover;
 }
 
+
+
+
+/* Privacy Policy */
+.Privacy-Head-01 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 900;
+    color: #E2562C;
+}
+
+.Privacy-Head {
+    color: #000;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+}
+
+.Privacy-li {
+    list-style: square !important;
+}
+
+/* Default hover */
+a:hover {
+    color: #000;
+    font-weight: 600;
+}
+
 @media only screen and (max-width: 600px) {
     nav {
         display: none;
